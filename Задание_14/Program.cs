@@ -79,39 +79,5 @@ namespace Задание_14
                 return "Гав";
             }
         }
-
-
-        /*abstract class Figure
-        {
-            public abstract double GetArea();
-            public abstract double GetPerimeter();
-            public abstract string Name { get; set; }
-        }
-
-        class Rectangular: Figure
-        {
-            string name;
-            public double Width { get; set; }
-            public double Height { get; set; }
-            public override double GetArea()
-            {
-                return Width * Height;
-            }
-            public override double GetPerimeter()
-            {
-                return (Width + Height) * 2;
-            }
-            public override string Name
-            {
-                get
-                {
-                    return name;
-                }
-                set
-                {
-                    name = value;
-                }
-            }
-        }*/
     }
 }
